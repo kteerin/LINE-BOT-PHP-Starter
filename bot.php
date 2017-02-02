@@ -20,7 +20,7 @@ if (!is_null($events['events'])) {
 			$messages = [
 				'type' => 'text',
 				//'text' => $text
-				'text' => 'find.namo.xyz'
+				'text' => 'http://weather.tmd.go.th/pha/pha240_latest.png'
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
