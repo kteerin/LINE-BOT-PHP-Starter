@@ -1,5 +1,5 @@
 <?php
-$access_token = 'ahrGQxc6P9beC21tZhGwZq83mU0HohzmpOuO/jra3OU4M1qZMfVmGN29s8SrLKbMyGVkXEnxg/AD8wSb94sdoEdFe8r5PfYfOT3doeg6b1W2Xcj72Q1t35wrC/evucdBp8sS2ZabQPv7Si6WHX+22gdB04t89/1O/w1cDnyilFU=';
+$access_token = '6GXQOW+Hd+anHd0hF2YhAI/OiiKkBG1oy9ap7ZCkie9fagxHZTXDhQETDgyiIiK6ldDwArW1nG96PydpgAqiRBRqqpANljXTGMo6A9LJCV0UCKY/iHWWRQCnb5dBhlriXiWXyDrbcK18zDd+u/5l9AdB04t89/1O/w1cDnyilFU=';
 
 // Get POST body content
 $content = file_get_contents('php://input');
@@ -44,3 +44,4 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
+echo "OK";
